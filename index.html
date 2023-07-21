@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <!-- font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,41 +22,45 @@
     <section class="contents">
         <div class="left-contents">
             <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title</p>
-            <button>Sign up</button>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast </p>
+            <button type="submit">Sign up</button>
         </div>
-        <img class="right-contents" href="" >I am a photo</img>
+        <img class="right-contents" src="./images/dog-main.jpg" alt="I am a photo"></img>
     </section>
     <section class="blogs">
         <h2>Some random information</h2>
-        <div class="blog-card">
-            <img src="" alt="">
-            <p>aaa</p>
-        </div>
-        <div class="blog-card">
-            <img src="" alt="">
-            <p>bbb</p>
-        </div>
-        <div class="blog-card">
-            <img src="" alt="">
-            <p>ccc</p>
-        </div>
-        <div class="blog-card">
-            <img src="" alt="">
-            <p>ddd</p>
+        <div class="blogs-container">
+            <div class="blog-card">
+                <img src="./images/akita.jpg" alt="i am photo 1">
+                <p>Akita - dignified / courageous / profoundly loyal</p>
+            </div>
+            <div class="blog-card">
+                <img src="./images/american-foxhound.webp" alt=" am photo 2">
+                <p>American Foxhound - independent / easy-going / sweet-tempered</p>
+            </div>
+            <div class="blog-card">
+                <img src="./images/Bulldog.webp" alt=" am photo 3">
+                <p>Bulldog - friendly / courageous / calm</p>
+            </div>
+            <div class="blog-card">
+                <img src="./images/shiba-inu.webp" alt=" am photo 4">
+                <p>Shiba Inu - alert / active / attentive</p>
+            </div>
         </div>
     </section>
-    <section class="qutoes">
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it look nice.</p>
-        <p>-Thor, God of Thunder</p>
+    <section class="quotes">
+        <p>“A dog is the only thing on earth that loves you more than you love yourself.”</p>
+        <p class="author">-Josh Billings</p>
 
     </section>
     <section class="sign-up-label">
-        <p>Call to action! It's time!<br> Sign up for out product by clicking that button right over there! </p>
-        <button>Sign up</button>
+        <div>
+            <p><span>Call to action! It's time!</span><br> Sign up for out product by clicking that button right over there! </p>
+            <button type="submit">Sign up</button>
+        </div>
     </section>
     <footer>
-        Designed and coded by YC-Wong66 2023
+        Designed and coded by YC-Wong 2023
     </footer>
     
 </body>
