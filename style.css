@@ -8,16 +8,13 @@
 body{
     display:flex;
     flex-direction: column;
-    /* overflow: hidden; */
 }
-
 header{
     display: flex;
-    justify-content: space-around;
-    gap: 350px;
+    justify-content: space-between;
     background-color: #1F2937;
     color:#F9FAF8;
-    padding : 24px 32px;
+    padding : 12px 64px;
     font-size: 24px;
     flex: 1;
 }
@@ -68,6 +65,7 @@ li > a:hover{
     flex: 1;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 40px;
     /* gap: 5px; */
 }
@@ -78,14 +76,16 @@ li > a:hover{
 .blog-card{
     /* border: 1px solid black; */
     font-size: 10px;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 175px;
+    max-height: 175px;
     text-align: center;
+    
 }
 .blog-card > img{
-    width : 200px;
+    width : 175px;
     border-radius: 10px;
-    border: 3px solid #3882F6;
+    border: 8px solid #3882F6;
+    box-shadow: 2px 1px 3px #888888;
 }
 .quotes{
     flex: 1;
@@ -133,6 +133,7 @@ button{
     flex: 1;
     border: 1px solid white;
     margin-left: 30px;
+    min-width: 150px;
 }
 
 footer{
@@ -143,4 +144,9 @@ footer{
     align-items: center;
     background-color: #1F2937;
     color:white;
+}
+button:hover{
+    background-color: white;
+    color:blue;
+    cursor: pointer;
 }
